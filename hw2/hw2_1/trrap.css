@@ -1,0 +1,42 @@
+body{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.father{
+    width: 800px;
+    height: 600px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+.main{
+    background: blue;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.fate{
+    background: blue;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block{
+    height: 250px;
+    width: 250px;
+    background: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
