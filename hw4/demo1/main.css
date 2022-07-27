@@ -1,0 +1,135 @@
+.father{
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.header{
+    display: flex;
+    gap: 10px;
+}
+.logo{
+    width: 25%;
+    height: 200px;
+    background: #7b7a7a;
+}
+.search{
+    width: 75%;
+    height: 200px;
+    background: #7b7a7a;
+}
+.main{
+    /*border: 1px solid red;*/
+    display: flex;
+    gap: 10px;
+}
+.group_nav{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 10px;
+}
+.nav{
+    height: 300px;
+    background: #7b7a7a;
+}
+.card{
+    height: 145px;
+    background: #7b7a7a;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    gap: 10px;
+}
+.block45{
+    display: flex;
+    gap: 10px;
+}
+.block4{
+    width: 80%;
+    height: 200px;
+    background: #7b7a7a;
+}
+.block5{
+    width: 20%;
+    height: 200px;
+    background: #7b7a7a;
+}
+.block67{
+    display: flex;
+    gap: 10px;
+}
+.block6{
+    width: 80%;
+    height: 400px;
+    background: #7b7a7a;
+}
+.block7{
+    width: 20%;
+    height: 400px;
+    background: #7b7a7a;
+}
+.footer{
+    height: 200px;
+    background: #7b7a7a;
+}
+.nav_new{
+    display: none;
+}
+.box{
+    display: none;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+@media screen and (max-width: 1000px){
+    body{
+        background: red;
+    }
+    .group_nav{
+        display: none;
+    }
+    .content{
+        width: 100%;
+    }
+    .block67{
+        flex-direction: column;
+    }
+    .block6{
+        width: 100%;
+    }
+    .block7{
+        width: 100%;
+        height: 100px;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .nav_new{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 30px;
+        background: #7b7a7a;
+        height: 150px;
+    }
+    .box{
+        display: flex;
+        gap: 10px;
+    }
+    .card{
+        width: 50%;
+    }
+
+}
+
